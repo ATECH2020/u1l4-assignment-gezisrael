@@ -22,7 +22,7 @@ class AnalogClock {
          minute = ((userTime / 30) - hour);
 
          minuteHand = (Math.round(minute * 60));
-         System.out.println((int)hour + ":" + (int)minuteHand);
+         System.out.print((int)hour + ":" + (int)minuteHand);
 
         // closing the scanner object
 

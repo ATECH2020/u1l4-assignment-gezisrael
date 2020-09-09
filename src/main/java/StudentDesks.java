@@ -26,7 +26,7 @@ class StudentDesks {
 
          totalDesks = (aDesks + bDesks + cDesks);
          
-        System.out.println((int)totalDesks);
+        System.out.print((int)totalDesks);
 
         // closing the scanner object
         scanner.close();

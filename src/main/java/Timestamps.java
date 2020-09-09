@@ -26,7 +26,7 @@ class Timestamps {
          secInMin2 = minutes2 * 60;
 
          //adding the secounds together
-         System.out.println((secInHours2 - secInHours1) + (secInMin2 - secInMin1) + (seconds2 - seconds1));
+         System.out.print((secInHours2 - secInHours1) + (secInMin2 - secInMin1) + (seconds2 - seconds1));
 
         // closing the scanner object
         scanner.close();
