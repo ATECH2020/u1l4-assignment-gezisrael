@@ -21,7 +21,7 @@ class Timestamps {
          secInHours1 = hours1 * 3600;
          secInHours2 = hours2 * 3600;
 
-         //calculating secounds in minutes
+         //calculating seconds in minutes
          secInMin1 = minutes1 * 60;
          secInMin2 = minutes2 * 60;
 
