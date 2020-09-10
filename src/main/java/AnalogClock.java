@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.lang.Math;
 
 class AnalogClock {
     public static void main(String[] args) {
@@ -8,23 +7,13 @@ class AnalogClock {
         Scanner scanner = new Scanner(System.in);
 
         //Reads ints from user
-        double userTime = scanner.nextDouble();
+        int hoursDegree = scanner.nextInt();
+        int minAngle;
 
-        double hour;
-        double minute;
-        double minuteHand;
+        minAngle = ((hoursDegree % 30) * 12);
+        
+        System.out.print(minAngle);
 
-
-        /*
-         *  your code goes here
-         */
-         hour = (Math.floor(userTime /30));
-         minute = ((userTime / 30) - hour);
-
-         minuteHand = (Math.round(minute * 60));
-         System.out.print((int)hour + ":" + (int)minuteHand);
-
-        // closing the scanner object
 
         scanner.close();
     }
