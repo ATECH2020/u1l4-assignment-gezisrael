@@ -20,9 +20,9 @@ class StudentDesks {
         /*
          *  your code goes here
          */
-         aDesks = (classADesks / deskPair);
+         aDesks = (Math.round(classADesks / deskPair));
          bDesks = (Math.round(classBDesks / deskPair));
-         cDesks = (classCDesks / deskPair);
+         cDesks = (Math.round(classCDesks / deskPair));
 
          totalDesks = (aDesks + bDesks + cDesks);
          
